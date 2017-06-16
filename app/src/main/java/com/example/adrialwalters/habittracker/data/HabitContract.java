@@ -32,7 +32,7 @@ public class HabitContract {
          *
          * Type: TEXT
          */
-        public final static String COLUMN_ACTIVITY_TYPE ="type of activity";
+        public final static String COLUMN_ACTIVITY_TYPE = "activity";
 
         /**
          * Day of the week.
@@ -44,14 +44,14 @@ public class HabitContract {
          *
          * Type: INTEGER
          */
-        public final static String COLUMN_WEEK_DAY = "day of week";
+        public final static String COLUMN_WEEK_DAY = "day";
 
         /**
          * Amount of time.
          *
          * Type: INTEGER
          */
-        public final static String COLUMN_TIME = "amount of time";
+        public final static String COLUMN_TIME = "minutes";
 
         /**
          * Possible values for the day of the week.
